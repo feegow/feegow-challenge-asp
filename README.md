@@ -1,11 +1,11 @@
 # Feegow Challenge
 
-Esse é um teste focado em design de código, e conhecimento de orientação a objeto. O objetivo é avaliar sua experiênica em escrever código de fácil manutenção, baixo acoplamento, e alta coesão.
+Esse é um case focado em design de código, e conhecimento da linguagem e seus principais recursos. O objetivo é avaliar sua experiênica em escrever código de fácil manutenção, baixo acoplamento, e alta coesão.
 
 
 ## Apresentação do problema
 
-A clínica _Exemplo_ precisa exibir a listagem de seus médicos separados por especialidade em seu site para que seus pacientes tenham acesso. Essa clínica utiliza o Feegow que possui toda a api necessária para isso. 
+A clínica _Exemplo_ precisa exibir a listagem de seus médicos separados por especialidade em seu site para que seus pacientes tenham acesso. Essa clínica utiliza o Feegow que possui uma api que fornece o suporte necessário para isso. 
 Link da documentação: https://api.feegow.com.br/api/documentation 
 
   1- A tela inicial deve ser um SELECT contendo a listagem de todas as especialidades que a clínica trabalha (método na documentação: ``GET /specialties/list``). 
@@ -17,7 +17,7 @@ Link da documentação: https://api.feegow.com.br/api/documentation
 
   ![Exemplo do SELECT](https://image.prntscr.com/image/v4cm7l99TOuvcyhHuIgaJw.png)
 
-  3- Quando o usuário clica em "AGENDAR", será exibido um formulário que o usuário irá preencher e clicar em "ENVIAR".
+  3- Quando o usuário clicar em "AGENDAR", será exibido um formulário que o usuário irá preencher e clicar em "ENVIAR".
   
   ![Exemplo do SELECT](https://image.prntscr.com/image/w34r0YIUQsmlJcq7DcaIQA.png)
   
@@ -32,10 +32,10 @@ Link da documentação: https://api.feegow.com.br/api/documentation
 
 Os pré-requisitos para a aplicação:
 
-- Use o PHP como linguagem backend.
+- Use o ASP Classico como linguagem backend.
 - Usar Bootstrap ou qualquer framework front-end de sua preferência.
-- Banco deve ser relacional, de preferencia MySQL/POSTGRESQL
-- Documentação sucinta e explicativa de como rodar seu código e levantar os ambientes.
+- O banco de dados deve ser relacional (preferencia MySQL/POSTGRESQL).
+- Documentação sucinta e explicativa de como levantar os ambientes necessários e executar seu código.
 
 ## Avaliação
 
@@ -45,13 +45,20 @@ Para nos enviar seu código, você poderá escolher as 3 opções abaixo:
 - Dar acesso ao seu repositório no Github para _FeegowWelcomeTech_ .
 - Enviar um git bundle do seu repositório para os e-mail welcome.tech@feegow.com.br.
 
-Caso opte por fazer um Pull-Request, deixe ele explicativo apontando tudo que precisa ser feito para rodar sua aplicação. 
+Caso opte por fazer um Pull-Request, deixe ele explicativo apontando tudo que precisa ser feito para executar a sua aplicação (inclusive a versão dos sistemas operacionais e programas necessários). 
 
 ## Dicas
 
 - Aproveite os recursos das ferramentas que você está usando. Diversifique e mostre que você domina cada uma delas.
 - Tente escrever seu codigo o mais claro e limpo possível. Código deve ser legível assim como qualquer texto dissertativo.
 - Se destaque mostrando algo interessante e surpreendente. Isso sempre fará diferença.
+
+## Serão considerados diferenciais neste case
+
+- Estruturação do Banco de Dados em sua melhor forma normal
+- Validações dos dados no front-ent e no back-end
+- Aplicação de Bootstrap (https://getbootstrap.com/) e jquery (https://jquery.com/), explorando seus recursos de forma otimizada no front-end
+- Aplicação de regras de segurança na aplicação
 
 Qualquer dúvida técnica, envie uma mensagem para welcome.tech@feegow.com.br.
 
